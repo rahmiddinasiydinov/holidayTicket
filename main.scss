@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../travel__back.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.container{
+    margin: 0;
+    
+}
+.travel{
+    &__header{
+        color: #fff;
+        font-size: 48px;
+        margin-top: 50px;
+    }
+    &__text{
+        color: #f1f1f1f1;
+        max-width: 450px;
+        word-spacing: 2px;
+        text-align: left;
+        line-height: 1.5;
+    }
+    &__btn{
+        padding:15px 50px;
+        margin-top: 20px;
+        border: none;
+        box-shadow: 0 0 2px 1px #fff;
+        color: #fff;
+        background-color: blue;
+        box-sizing: border-box;
+        &:hover{
+            box-shadow:  0 0 4px 3px #fff;
+            transition: .3s;
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    body{
+        padding-left: 0;
+    }
+    .travel{
+        &__header{
+            font-size: 32px;
+        }
+        &__text{
+            text-align: center;
+        }
+    }
+    .container{
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+.modal{
+    position: absolute;
+    background-color: rgba(0, 0, 250, .5); 
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   &__form{
+    display: flex;
+    flex-direction: column;
+   }
+  
+}
+.active{
+    display: flex;
+}
+.form-label{
+    color:#fff !important;
+}
+.congrats{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: none;
+    background-color: rgb(255, 255, 0);
+    &__header{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 100px;
+        color: red;
+    }
+}
+.fail{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: none;
+    background-color: red;
+    &__header{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 100px;
+        color:rgb(255, 255, 0) ;
+    }
+}
+.active-block{
+    display: block;
+}
