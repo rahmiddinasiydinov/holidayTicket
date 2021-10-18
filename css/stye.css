@@ -1,0 +1,128 @@
+.login__body {
+  height: 100vh;
+  background-color: #2148C0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 400px;
+}
+
+.form__img {
+  margin-bottom: 71px;
+}
+
+.input_email, .input_password, .input__submit, #logout, .counter__input, .counter__submit {
+  width: 300px;
+  height: 45px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  background-color: transparent;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.input_password {
+  margin-bottom: 43px;
+}
+
+.input__submit {
+  background-color: #fff;
+  color: #2148C0;
+}
+
+.index__body {
+  background-image: url("../img/back.svg");
+}
+
+.index__header {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 20px;
+}
+
+.index__text {
+  width: 70%;
+  color: #fff;
+  line-height: 1.5;
+  word-spacing: 2px;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+#logout {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.counter {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.counter__input {
+  width: 90%;
+  font-size: 30px;
+}
+
+.counter__submit {
+  color: blue;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.counter__value {
+  font-size: 30px;
+  color: white;
+  letter-spacing: 2px;
+  margin-left: 10%;
+}
+/*# sourceMappingURL=stye.css.map */
